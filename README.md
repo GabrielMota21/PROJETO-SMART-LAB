@@ -8,6 +8,7 @@ Este projeto foi desenvolvido como parte de um desafio técnico para criar uma v
 - **HTML5**
 - **CSS3**
 - **JavaScript**
+- **Figma**
 
 ### Back-End
 - **Node.js**
@@ -104,3 +105,5 @@ Adicione um exemplo de banco de dados SQLite para testes.
 
 ---
 Esperamos que este desafio permita uma experiência prática e divertida! 😊
+
+https://www.figma.com/design/tb5gpU4nhCm0FJXaQ1zYsu/Untitled?node-id=0-1&p=f&t=f3NytkfyN9xfVIkN-0
