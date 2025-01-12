@@ -1,0 +1,23 @@
+{
+  "name": "projeto-smart-lab",
+  "version": "1.0.0",
+  "description": "Este projeto foi desenvolvido como parte de um desafio técnico para criar uma versão simplificada do sistema **WorklabWeb**. O objetivo é simular um fluxo básico do sistema, permitindo o cadastro de pacientes, exames, vinculação de exames aos pacientes e geração de um relatório básico.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielMota21/PROJETO-SMART-LAB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielMota21/PROJETO-SMART-LAB/issues"
+  },
+  "homepage": "https://github.com/GabrielMota21/PROJETO-SMART-LAB#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
