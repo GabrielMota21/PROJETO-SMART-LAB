@@ -1,20 +1,205 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SmartLab</title>
     <link rel="stylesheet" href="./Style.css">
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--Fontes do google-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <!---->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="./swiper-bundle.min.css">
 </head>
+
 <body>
-    <header>
-        <img src="./img/19366 2 (1).png" alt="">
-        <div class="">
-            <img src="./icons/atom_3524009.png" alt="">
-        </div>
-    </header>
+    <main>
+        <header>
+            <div class="container-header">
+                <div class="icon-atomo">
+                    <img src="./icons/atom_3524009.png" alt="">
+                </div>
+                <div class="nav-bar">
+                    <a href="">Home</a>
+                    <a href="">Resultados</a>
+                    <a href="">Agendamentos</a>
+                    <a href="">Contatos</a>
+                    <a href="">Quem Somos</a>
+                </div>
+                <div class="botao-acesso">
+                    <button>
+                        <a href="">Login /</a>
+                        <a href="">Cadastro</a>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <section class="secao-sobre-smartlab">
+            <div class="container-de-cima">
+                <h1>Bem-Vindo ao SmartLab!</h1>
+            </div>
+            <div class="container-principal">
+                <div class="img-container-principal">
+                    <img src="./img/logo-smartlab.png" alt="">
+                </div>
+                <div class="texto-container-principal">
+                    <p>Aqui, tecnologia e inovação se unem para oferecer soluções práticas e inteligentes. Aproveite
+                        nossos serviços e descubra como simplificar sua vida com o que há de mais moderno!</p>
+                </div>
+            </div>
+        </section>
+        <section class="secao-convencendo-cliente">
+            <div class="texto-informativos">
+                <h1>Porque fazer o seu exame conosco?</h1>
+                <p>A Smart Lab possui tecnologia 100% web, com recursos que fazem toda a diferença para o seu
+                    laboratório. Hospedado nos melhores servidores nas nuvens do mundo, o sistema garante muito mais
+                    segurança e mobilidade! Veja algumas vantagens:</p>
+                <button><a href="">Agendamentos</a></button>
+            </div>
+            <div class="img-medica">
+                <img src="./img/medica.jpg" alt="">
+            </div>
+        </section>
+        <section class="secao-sobre">
+            <div class="sobre-nos">
+                <div class="linha"></div>
+                <div class="texto-sobre-nos">
+                    <h1>Conheça mais sobre a <span>Smart lab!</span></h1>
+                    <p>O sistema mais utilizado por laboratórios de análises clínicas do Brasil</p>
+                </div>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vDKX81ICjNY?si=3PBAg7e0MlWNs1xg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="container mySwiper">
+            <div class="depoimento-container swiper-wrapper">
+                <div class="slide swiper-slide">
+                    <i class="bi bi-quote"></i>
+                    <p class="depoi-text">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi a dolore vero qui
+                        exercitationem, cumque aliquam earum! Quod at maxime harum tempore aut, mollitia consequuntur
+                        ratione ad cumque rem officiis?
+                    </p>
+                    <div class="person">
+                            <img src="./img/moça.png" alt="">
+                        <div class="info-moca">
+                            <p class="nome-person">Rafaela Silva</p>
+                            <p class="funcao-personagem">Paciente - 531-402</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide swiper-slide">
+                    <i class="bi bi-quote"></i>
+                    <p class="depoi-text">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi a dolore vero qui
+                        exercitationem, cumque aliquam earum! Quod at maxime harum tempore aut, mollitia consequuntur
+                        ratione ad cumque rem officiis?
+                    </p>
+                    <div class="person">
+                            <img src="./img/senhora.png" alt="">
+                        <div class="info-senhora">
+                            <p class="nome-person">Maria de lurdes</p>
+                            <p class="funcao-personagem">Paciente - 001-402</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide swiper-slide">
+                        <i class="bi bi-quote"></i>
+                        <p class="depoi-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi a dolore vero qui
+                            exercitationem, cumque aliquam earum! Quod at maxime harum tempore aut, mollitia consequuntur
+                            ratione ad cumque rem officiis?
+                        </p>
+                    <div class="person">
+                            <img src="./img/rapaz.png" alt="">
+                        <div class="info-rapaz">
+                            <p class="nome-person">Roger fereira</p>
+                            <p class="funcao-personagem">Paciente - 892-023</p>
+                        </div>
+                    </div>
+                </div>          
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section>
+
+        <section>
+                <div class="form-container">
+                    <h2>Deixe seu comentario!</h2>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="number">Numero do Paciente</label>
+                        <input type="number" id="number" name="Numero" placeholder="Numero do Paciente" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" placeholder="Digite sua mensagem" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer">
+                <div class="container-footer-1">
+                    <h3>Sobre a Smart Lab!</h3>
+                    <p>O Smart Lab, fundado em 2025, é um laboratório de inovação focado em inteligência artificial, IoT, automação e sustentabilidade, promovendo soluções tecnológicas para desafios globais.</p>
+                </div>
+                <div class="container-footer-2">
+                    <h3>Atendimento</h3>
+                    <p>E-MAIL : smartlab.consultorvendas.com.br</p>
+                    <p>solicite um orçamento</p>
+                </div>
+                <div class="container-footer-3">
+                    <h3>Telefone</h3>    
+                    <p>Atendimento :</p>
+                    <p>(11)98646-3939</p>
+                    <p>Vendas:</p>
+                    <p>(11)4158-9063</p>
+                </div>
+                <div class="redessociais-footer">
+                    <h3>Redes Sociais</h3>
+                    <div class="icon-redessociais">
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href=""><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copywrite">
+                <h1>SmartLab - laboratório de análises clinicas-2025-Todos os direitos reservados</h1>
+            </div>
+            
+        </footer>
+    </main>
+    <script src="./swiper-bundle.min.js"></script>
+    <script src="depoimento.js"></script>
 </body>
+
 </html>

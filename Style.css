@@ -1,20 +1,382 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 body{
     width: 100%;
-    font-family: serif;
+    font-family: "Inria Serif", serif;
+}
+header {
+    width: 100%;
+    background-color: black;
+    background-image: url(./img/19366\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+}
+.container-header{
+    width: 100%;
+    display: flex;
+    
+}
+.icon-atomo{
+    width: 15%;
+    display: flex;
+    justify-content: center;
 }
 
-header{
+.icon-atomo img{
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.nav-bar{
+    width:70%;
+    display: flex; 
+    gap: 12%;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+}
+
+.botao-acesso{
+    width: 15%;
+    display:flex;
+    align-items: center;
+}
+
+.botao-acesso button{
+    padding: 20px;
+    background-color: #3158AD;
+    border-radius: 30px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+.botao-acesso button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.secao-sobre-smartlab{
+    width: 100%;
+    height: 550px;
+}
+
+.container-de-cima{
+    width: 100%;
+    height: 100px;
+}
+.container-de-cima h1{
+    font-size:70px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container-principal{
+    width: 100%;
+    display: flex;
+}
+
+.img-container-principal{
+    width: 50%;
+}
+.img-container-principal img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.texto-container-principal{
+    width: 40%;
+}
+
+.texto-container-principal p{
+    font-size: 40px;
+    margin:  150px auto;
+    text-align: center;
+}
+
+.secao-convencendo-cliente{
+    width: 100%;
+    display: flex;
+}
+
+.texto-informativos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+
+.texto-informativos h1{
+    font-size: 70px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.texto-informativos p{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.texto-informativos button{
+    width: 50%;
+    margin-top: 50px;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #3158AD;
+    text-decoration: none;
+    cursor: pointer;
+}
+.texto-informativos :hover{
+    transition: transforme 0.5 ease ;
+}
+.texto-informativos button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.img-medica img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.linha{
+    width: 100%;
+    background-color: black;
+}
+
+.secao-sobre{
     width: 100%;
 }
 
-header img{
+.sobre-nos{
     width: 100%;
-    height: 380px;
-                                                                                                                                                                     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.linha{
+    margin-top: 40px;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.texto-sobre-nos{
+    margin-top: 40px;
+}
+
+.texto-sobre-nos h1{
+    font-size: 70px;
+}
+.texto-sobre-nos h1 span{
+    color: #3158AD;
+}
+.texto-sobre-nos p{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.video{
+    margin-top: 40px;
+}
+
+.video iframe{
+    width: 50%;
+    height: 600px;
+    border-radius: 18px;
+    position: relative;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+}
+.depoimento-container{
+    width: 100%;
+    padding: 50px 20px;
+    max-width: 900px;
+    position: relative;
+    overflow: hidden;
+}
+.depoimento-container .slide{
+    padding: 40px 60px;
+}
+.depoimento-container i{
+    font-size: 90px;
+    color: #ccc;
+}
+.depoimento-container p.depoi-text{
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.slide .person img{
+    width: 80px;
+    height: 80px;
+}
+
+.slide .person{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.slide .person p.nome-person{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.slide .person p.funcao-personagem{
+    font-size: 14px;
+}
+
+ .form-container {
+    width: 65%;
+    margin: 0 auto;
+    background-color: #c9c9c9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(148, 144, 144, 0.1);
+    padding: 50px;
+    margin-top: 25px;
+  }
+
+  .form-container h2 {
+    margin-bottom: 20px;
+    color: #000000;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(0, 0, 0);
+  }
+
+  .form-group input, 
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+  .form-group textarea {
+    resize: none;
+    height: 100px;
+  }
+
+  .form-group button {
+    background-color: #fdfdfd;
+    color: #000000;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .form-group button:hover {
+    transform: translate(0.5s ease);
+    background-color: #000000;
+    color: white;
+  }
+
+footer{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.footer{
+    width: 100%;
+    background-color:#3158AD;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 30px;
+    gap: 20px;
+    color: white;
+}
+
+.container-footer-1{
+    width: 30%;
+    flex-direction: column;
+}
+.container-footer-1 p{
+    margin-top: 20px;
+    font-size: 20PX;
+}
+.container-footer-2{
+    width: 30%;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.container-footer-2 p{
+    margin-top: 20px;
+}
+.container-footer-3{
+    width: 30%;
+    flex-direction: column;
+}
+
+.container-footer-3 p{
+    margin-top: 20px;
+}
+.redessociais-footer{
+    width: 30%;
+    height: 200px;
+}
+
+.icon-redessociais{
+    width: 50%;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.icon-redessociais i{
+    font-size: 25px;
+    color: white;
+}
+
+.copywrite{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.copywrite h1{
+    font-size: 20px;
+    color: #000000;
+}
+
+
+
+
+@media screen and (min-width:1024px){
+    
 }
