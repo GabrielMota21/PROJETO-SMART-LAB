@@ -1,0 +1,71 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font-family: "Inria Serif", serif;
+}
+
+.secao-principal{
+    width: 100%;
+    display: flex;
+    color: black;
+}
+.secao-principal h1{
+    font-size: 60px;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+}
+.info-cadastro{
+    width: 50%;
+    background-color:#3158AD;
+    color: white;
+}
+.input{
+    width: 100%;
+    margin-left: 120px;
+}
+.input p{
+    margin-top: 35px;
+}
+.input input{
+    width: 60%;
+    padding: 12px;
+    border-radius: 30px;
+    border: 0px;
+    margin-top: 16px;
+}
+.b-cadastro{
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.b-cadastro button{
+    background-color:#fff;
+    width: 30%;
+    border-radius: 30px;
+    border: 0px;
+    padding: 20px;
+    font-size: 20px;
+}
+.b-cadastro button a{
+    text-decoration: none;
+    color: black;
+}
+.img-ilustra{
+    width: 80%;
+    height: 765px;
+    background-image: url(../img/fundo-cadastro.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 200px;
+}
+
