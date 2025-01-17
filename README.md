@@ -84,7 +84,7 @@ Adicione um exemplo de banco de dados SQLite para testes.
    ```
 2. Instale as dependências:
    ```bash
-   cd worklabweb-simplificado
+   cd PROJETO-SMARTLAB
    npm install
    ```
 3. Configure o banco de dados SQLite:
