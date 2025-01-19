@@ -56,9 +56,9 @@ Adicione um exemplo de banco de dados SQLite para testes.
 
 ### Tabelas Principais
 #### Paciente
-| Número de Atendimento | Nome Completo       | Sexo | Email             | Celular       |
-|-----------------------|--------------------|------|-------------------|---------------|
-| 123456               | João da Silva      | M    | joao@email.com    | (11) 98765-4321 |
+|  Nome Completo | Número de Atendimento | Sexo | Email             | Celular       |
+|-----------------------------------------------------------------------------------|
+|  João da Silva |       123456          | M    | joao@email.com    |(11) 98765-4321|
 
 #### Exame
 | Código | Descrição    | Valor |
@@ -75,12 +75,14 @@ Adicione um exemplo de banco de dados SQLite para testes.
 
 ### Pré-requisitos
 - Node.js
-- npm ou yarn
+- Insomnia
+- nodemon .\src\app.js
+- figma
 
 ### Passos
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/worklabweb-simplificado.git
+   git clone https://github.com/seu-usuario/PROJETO-SMARTILAB.git
    ```
 2. Instale as dependências:
    ```bash
@@ -95,15 +97,17 @@ Adicione um exemplo de banco de dados SQLite para testes.
    ```
 5. Acesse a aplicação no navegador:
    ```
-   http://localhost:3000
+   http://localhost:3000 OU https://localhost:3001
    ```
 
 ## Melhorias Futuras
 - Autenticação de usuários.
 - Validação de formulários no front-end.
 - Paginação e filtros nos relatórios.
-
+- Responsividade
+- Banco de dados Login e cadastro
 ---
-Esperamos que este desafio permita uma experiência prática e divertida! 😊
+
+figma :
 
 https://www.figma.com/design/tb5gpU4nhCm0FJXaQ1zYsu/Untitled?node-id=0-1&p=f&t=f3NytkfyN9xfVIkN-0
