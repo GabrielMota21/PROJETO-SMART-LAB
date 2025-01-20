@@ -57,7 +57,7 @@ Adicione um exemplo de banco de dados SQLite para testes.
 ### Tabelas Principais
 #### Paciente
 |  Nome Completo | Número de Atendimento | Sexo | Email             | Celular       |
-|-----------------------------------------------------------------------------------|
+
 |  João da Silva |       123456          | M    | joao@email.com    |(11) 98765-4321|
 
 #### Exame
